@@ -1,0 +1,38 @@
+.about{
+    padding:125px 90px;
+    min-height: 800px;
+    background:url('../img/bg2.jpg') center (center/cover) no-repeat;
+    &__title{
+        margin-bottom: 140px;
+        img{
+            width: 100%;
+        }
+    }
+    &__text{
+        max-width: 580px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 33.31px;
+        text-align: center;
+        margin-bottom: 122px;
+    }
+    &__visit{
+        color: #ffffff;
+        font-size: 33px;
+        font-weight: 300;
+        line-height: 33.31px;
+        text-align: center;
+        a{
+            text-decoration: none;
+            color:$maincol;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    &__wrapper{
+        max-width: 580px;
+    }
+}

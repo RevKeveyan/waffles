@@ -1,0 +1,19 @@
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .promo{
+        .logo_big{
+            display: none;
+        }
+        .logo_min{
+            display: block;
+        }
+    }
+    .quality{
+        &__wrapper{
+            
+            max-width: 500px;
+        }
+    }
+}

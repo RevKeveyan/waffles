@@ -1,0 +1,25 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .promo{
+        &__text{
+            font-size: 40px;
+            a{
+                font-size: 30px;    
+            }
+        }
+        &__block{
+           .logo{
+            width: 321px;
+            height: 136px;
+            img{
+                height: 100%;
+            }
+           }
+        }
+        &__book{
+            font-size: 43px;
+        }
+    }
+}
